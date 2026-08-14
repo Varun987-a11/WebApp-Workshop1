@@ -1,0 +1,6 @@
+services:
+  web:
+    build: .
+    container_name: my-task-manager
+    ports:
+      - "9000:80"
